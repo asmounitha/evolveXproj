@@ -3,7 +3,7 @@
 int main() {
     int N, i;
     unsigned long long product = 1;
-    printf("Enter the value of N:4 ");
+    printf("Enter the value of N: ");
     scanf("%d", &N);
     for (i = 1; i <= N; i++) {
         product *= i;
